@@ -1,0 +1,30 @@
+*{       /*其中的*代表全部的HTML都按照這樣格式顯示*/
+    /* border: solid 3px black;  */
+   font-size:  20px;
+  } 
+  h1{    /*針對h1 tag格式處理，所以會蓋掉前面的*設定格式*/
+   font-size:  50px;
+   color: white; 
+   background-color: red;
+  }
+  .card{
+      width: 800px;
+      display: flex; /*div同一排*/
+      border: solid 3px black;
+  }
+  .left{
+      width: 30%;
+      background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Roasted_coffee_beans.jpg/1280px-Roasted_coffee_beans.jpg);
+  }
+  .right{
+      width: 70%;
+  }
+  ul li{
+      display: inline-block;
+      width: 30%;
+      vertical-align: top;
+  }
+  ul li h3{
+      background-color: brown;
+      color: aliceblue;
+  }

@@ -1,0 +1,103 @@
+*{
+    /* border: solid 2px black; */
+    font-family: 微軟正黑體;
+    font-size: 20px;
+}
+html,body{
+    background-color: #ff7526;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    margin: 0px;
+}
+.box{
+    width: 380px;
+    background-color: #fff;
+    /* 以下指令產生陰影,x位移,y位移,陰影的範圍 */
+    box-shadow:  0px 0px 35px rgba(0,0,0,0.4);
+    transition: 0.5s;
+}
+/* hover為滑鼠滑入產生的格式 */
+.box:hover{
+    box-shadow: 5px 5px 60px rgba(0,0,0,1);
+    transform: translate(-5px,-5px);
+}
+.top{
+    height: 330px;
+    background-image: url(下載.jpg);
+    background-size: cover;
+    position: relative;
+}
+.top .name{
+    color: white;
+    font-size: 24px;
+    letter-spacing: 2px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    margin: 0px;
+    /* background-color: rgba(0,0,0,0,4); */
+    background: linear-gradient(transparent 0%,black 100%);
+    width: 100%;
+    padding-top: 30px;
+    box-sizing: border-box;      
+} 
+.top .name .smallText{
+    font-size: 10px;
+}  
+
+.tag{
+    width: 30px;
+    height: 80px;
+    background-color: #ff7526;
+    position: absolute;
+    right: 20px;
+    top: 0px;
+}
+.bottom{
+    padding: 10px 20px 20px 20px;
+}
+.bottom li{
+    padding: 5px 0px;
+}
+.bottom h3{
+    display: inline-block;
+    margin: 5px;
+}
+.bottom ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.buttons.btn{
+    display: inline-block;
+    letter-spacing: 2px;
+    padding: 10px 25px;
+}
+
+.btnNews{
+    float: right;
+    background-color: #fff;
+}
+.btnNews{
+    background-color: #abaaaa;
+}
+.buttons{
+    margin-top: 30px;
+}
+
+.btnWebsite{
+    background-color: #ff7526;
+    transition: 0.5s;
+}
+
+.btnWebsite:hover{
+    background-color: #f9b38a;
+}
+/* 取消設定原本超連結格式*/
+a{
+    color: initial;
+    text-decoration: initial;
+}
